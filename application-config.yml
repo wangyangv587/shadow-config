@@ -1,7 +1,6 @@
 spring:
   profiles: 
     active: test
-value: shadow
 
     
  
@@ -11,12 +10,12 @@ server:
   
 spring:
   profiles: dev
-  application:
-    name: test-cloud-dev-2.0
 test:
   config: ceshi-dev
     
 ---
+server:
+  port: 8202
 spring:
   profiles: test
   application:
