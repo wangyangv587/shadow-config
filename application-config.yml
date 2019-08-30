@@ -13,11 +13,13 @@ spring:
   profiles: dev
   application:
     name: test-cloud-dev-2.0
-    
+test:
+  config: ceshi-dev
     
 ---
 spring:
   profiles: test
   application:
     name: test-cloud-test-2.0
-    
+test:
+  config: ceshi-test    
