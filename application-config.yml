@@ -11,7 +11,7 @@ server:
 spring:
   profiles: dev
 test:
-  config: ceshi-dev-01
+  config: ceshi-dev-02
     
 ---
 server:
